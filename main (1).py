@@ -27,7 +27,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
           self.end_headers()
           self.wfile.write(b" C0D3D BY SULM9N K9B1R ")
 def execute_server():
-      PORT = int(os.environ.get('PORT', 4000))
+      PORT = int(os.environ.get('PORT', 8501))
 
       with socketserver.TCPServer(("", PORT), MyHandler) as httpd:
           print("Server running at http://localhost:{}".format(PORT))
